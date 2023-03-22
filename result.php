@@ -234,8 +234,10 @@ $fail = ($sum < 2);
   
         whatsappButton.addEventListener("click", () => {
           const url = encodeURIComponent(window.location.href);
-          const text = encodeURIComponent("Check out this link!");
-          const shareUrl = `https://api.whatsapp.com/send?text=${text} ${url}`;
+         // const text = encodeURIComponent("Ye dekho kya mast cheez hai https://pokipro.com/p/?p=65");
+          const text = "Ye%20dekho%20kya%20mast%20cheez%20hai%20%0Ahttps%3A%2F%2Fpokipro.com%2Fp%2F%3Fp%3D65";
+         // const shareUrl = `https://api.whatsapp.com/send?text=${text} ${url}`;
+         const shareUrl = `https://api.whatsapp.com/send?text=${text}`;
              window.open(shareUrl, "_blank");
         });
 
