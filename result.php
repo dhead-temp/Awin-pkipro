@@ -18,10 +18,9 @@ $fail = ($sum < 2);
     <title>Awin</title>
 
     <!-- ==== link === -->
-    <link rel="stylesheet" href="style.css?v2.10">
+    <link rel="stylesheet" href="assets/style.css?v2.10">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <style>
-  
         .progress-container {
           position: relative;
           width: 100%;
@@ -37,7 +36,7 @@ $fail = ($sum < 2);
           left: -8px;
           bottom: 0;
           width: 10%;
-          background-image: url(bar3.svg);
+          background-image: url(assets/img/bar3.svg);
           background-position: center;
           transform-origin: bottom left;
           transition: all 0.5s ease-in-out;
@@ -49,9 +48,6 @@ $fail = ($sum < 2);
             margin:20px;
         }
       </style>
-
-
-
 </head>
 <body>
     <header>
@@ -74,7 +70,7 @@ $fail = ($sum < 2);
         <div class="container ">
             <div class="main-hero-cont r-flex ali-c">
                 <div class="heroMoney_img">
-                    <img src="money.png" alt="money">
+                    <img src="assets/img/money.png" alt="money">
                 </div>
                 <div class="rightHero_textbox">Answer & Win 4100 Rs</div>
                 <a href="#" class="winList" >See Winners List</a>
@@ -82,8 +78,8 @@ $fail = ($sum < 2);
             <div class="main-container-box">
                 
                 <div class="hero-container-box">
-                    <div class="win-img"><img src="win-cup.png" alt="win cup"></div>
-                    <div class="herocucikes-img"><img src="win-cucikes.png" alt="cookies"></div>
+                    <div class="win-img"><img src="assets/img/win-cup.png" alt="win cup"></div>
+                    <div class="herocucikes-img"><img src="assets/img/win-cucikes.png" alt="cookies"></div>
                     <div class="hero-head1">Congrats, You are </div>
                       <div class="hero-head1">Eligible to WIN 4100 Rs</div>
                     <div class="hero-head3">Your score</div>
