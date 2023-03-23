@@ -76,6 +76,6 @@ $gitPullResponse = callCloudwaysAPI(
         'server_id'   => "714825",
         'app_id'      => $app_id,
         'git_url'     => $eventData['repository']['ssh_url'],
-        'branch_name' => "BRANCH_NAME_HERE",
+        'branch_name' => "main",
     ]
 );
