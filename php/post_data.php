@@ -5,6 +5,7 @@ $dbuser = "tmkpfnvkcc";
 $dbpass = "ZbPj4rKN3z";
 $dbname = "tmkpfnvkcc";
 
+/*
 // Create a new mysqli object to connect to the database
 $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 
@@ -47,4 +48,7 @@ $conn->close();
 
   // Redirect to another page
  // header('Location: ../share2.php');
+
+ */
 ?>
+
