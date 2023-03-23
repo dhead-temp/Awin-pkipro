@@ -36,9 +36,6 @@ if ($check_result->num_rows > 0) {
     $insert_query = "INSERT INTO users (name, mobile, city, p) VALUES ('$name', '$mobile', '$city', '$p')";
     if ($conn->query($insert_query) === TRUE) {
         
-        
-        // Redirect to another page
-        header('Location: ../share2.php');
         exit();
     } else {
         echo "Error: " . $insert_query . "<br>" . $conn->error;
@@ -47,4 +44,7 @@ if ($check_result->num_rows > 0) {
 
 // Close database connection
 $conn->close();
+
+  // Redirect to another page
+  header('Location: ../share2.php');
 ?>
