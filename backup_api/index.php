@@ -59,7 +59,6 @@ $tokenResponse = callCloudwaysAPI(
 
 $accessToken = $tokenResponse->access_token;
 
-
 $apps = [
     "Awin-pkipro" => 3382098,
 ];
