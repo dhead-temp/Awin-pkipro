@@ -46,5 +46,5 @@ if ($check_result->num_rows > 0) {
 $conn->close();
 
   // Redirect to another page
-  header('Location: ../share2.php');
+ // header('Location: ../share2.php');
 ?>
