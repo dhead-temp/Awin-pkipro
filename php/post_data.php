@@ -5,7 +5,7 @@ $dbuser = "tmkpfnvkcc";
 $dbpass = "ZbPj4rKN3z";
 $dbname = "tmkpfnvkcc";
 
-/*
+
 // Create a new mysqli object to connect to the database
 $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 
@@ -19,7 +19,7 @@ $name = $conn->real_escape_string($_POST['name']);
 $mobile = $conn->real_escape_string($_POST['mobile']);
 $city = $conn->real_escape_string($_POST['city']);
 $p = $conn->real_escape_string($_POST['p']);
-
+/*
 // Set cookies for the user
 setcookie('name', $name, time() + (86400 * 30), "/");
 setcookie('mobile', $mobile, time() + (86400 * 30), "/");
