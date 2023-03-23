@@ -9,10 +9,10 @@ $dbname = "tmkpfnvkcc";
 // Create a new mysqli object to connect to the database
 $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
+// // Check connection
+// if ($conn->connect_error) {
+//     die("Connection failed: " . $conn->connect_error);
+// }
 
 // Get user input
 $name = $conn->real_escape_string($_POST['name']);
@@ -46,7 +46,7 @@ if ($check_result->num_rows > 0) {
 // Close database connection
 $conn->close();
 
-  // Redirect to another page
+ // Redirect to another page
  // header('Location: ../share2.php');
 
 
