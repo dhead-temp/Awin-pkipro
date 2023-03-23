@@ -243,7 +243,6 @@ $fail = ($sum < 2);
 
         //   point value increase;
 
-
       </script>
    
 </body>
