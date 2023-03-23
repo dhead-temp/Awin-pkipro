@@ -1,9 +1,9 @@
 <?php
 // Establish database connection
 $dbhost = "localhost";
-$dbuser = "u240376517_awin";
-$dbpass = "IGmad;gqZ#j5";
-$dbname = "u240376517_awin";
+$dbuser = "tmkpfnvkcc";
+$dbpass = "ZbPj4rKN3z";
+$dbname = "tmkpfnvkcc";
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
 // Check connection

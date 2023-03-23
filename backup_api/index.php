@@ -62,9 +62,6 @@ $accessToken = $tokenResponse->access_token;
 
 $apps = [
     "Awin-pkipro" => 3382098,
-
-
-
 ];
 
 $eventData = json_decode(trim(file_get_contents("php://input")), true);
