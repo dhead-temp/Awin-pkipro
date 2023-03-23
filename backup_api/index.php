@@ -40,6 +40,7 @@ function callCloudwaysAPI($method, $url, $accessToken, $post=[])
     return json_decode($output);
 }
 
+
 // Fetch Access Token
 $tokenResponse = callCloudwaysAPI(
     'POST',
