@@ -68,7 +68,7 @@ $eventData = json_decode(trim(file_get_contents("php://input")), true);
 $app_id    = $apps[$eventData['repository']['name']];
 file_put_contents('github_pull.txt', json_encode($eventData) . "\n\n", FILE_APPEND);
 
-$gitPullResponse = callCloudWaysAPI(
+$gitPullResponse = callCloudwaysAPI(
     'POST',
     '/git/pull',
     $accessToken,
