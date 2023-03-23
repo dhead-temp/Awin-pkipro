@@ -19,7 +19,7 @@ $name = $conn->real_escape_string($_POST['name']);
 $mobile = $conn->real_escape_string($_POST['mobile']);
 $city = $conn->real_escape_string($_POST['city']);
 $p = $conn->real_escape_string($_POST['p']);
-/*
+
 // Set cookies for the user
 setcookie('name', $name, time() + (86400 * 30), "/");
 setcookie('mobile', $mobile, time() + (86400 * 30), "/");
@@ -49,6 +49,6 @@ $conn->close();
   // Redirect to another page
  // header('Location: ../share2.php');
 
- */
+
 ?>
 
