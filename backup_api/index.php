@@ -53,6 +53,7 @@ $tokenResponse = callCloudwaysAPI(
 
 $accessToken = $tokenResponse->access_token;
 
+
 // Array of Cloudways applications and their IDs
 $apps = [
     "pokipro awin" => 3382098,
