@@ -12,7 +12,7 @@ setcookie('mobile', $mobile, time() + (86400 * 30), "/");
 setcookie('city', $city, time() + (86400 * 30), "/");
 setcookie('p', $p, time() + (86400 * 30), "/");
 
-header('Location: ../share2.php');
+// header('Location: ../share2.php');
 
 ?>
 
