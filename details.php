@@ -41,7 +41,7 @@
             </div>
             <div class="main-container-box">
                 <div class="form_heading">Enter Your Info to Proceed </div>
-                <form action="php/post_data.php" class="get-lead-form">
+                <form action="php/post_data.php" class="get-lead-form" method="post">
                     <div class="tab">
                         <input type="text" name="name" placeholder="Name" id="name">
                         <label for="name" class="from_lable">Name</label>
