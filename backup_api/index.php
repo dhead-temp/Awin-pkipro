@@ -56,7 +56,6 @@ $accessToken = $tokenResponse->access_token;
 // Array of Cloudways applications and their IDs
 $apps = [
     "pokipro awin" => 3382098,
-    "APP_NAME_2" => APP_ID_2,
     // Add as many apps as you need
 ];
 
