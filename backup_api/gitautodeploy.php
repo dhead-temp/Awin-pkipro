@@ -54,10 +54,10 @@ $tokenResponse = callCloudwaysAPI('POST', '/oauth/access_token', null
 
 $accessToken = $tokenResponse->access_token;
 $gitPullResponse = callCloudWaysAPI('POST', '/git/pull', $accessToken, [
-    'server_id' => $_GET['server_id'],
-    'app_id' => $_GET['app_id'],
-    'git_url' => $_GET['git_url'],
-    'branch_name' => $_GET['branch_name']
+    'server_id' => $serverid,
+    'app_id' => $appid,
+    'git_url' => $giturl,
+    'branch_name' => $branch
     /* Uncomment it if you want to use deploy path, Also add the new parameter in your link
     'deploy_path' => $_GET['deploy_path']  
     */	
