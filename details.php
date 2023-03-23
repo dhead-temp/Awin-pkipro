@@ -34,7 +34,7 @@
         <div class="container ">
             <div class="main-hero-cont r-flex ali-c">
                 <div class="heroMoney_img">
-                    <img src="money.png" alt="money">
+                    <img src="assets/img/money.png" alt="money">
                 </div>
                 <div class="rightHero_textbox">Answer & Win 4100 Rs</div>
                 <a href="#" class="winList" >See Winners List</a>
