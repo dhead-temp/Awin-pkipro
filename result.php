@@ -20,6 +20,15 @@ $fail = ($sum < 2);
     <!-- ==== link === -->
     <link rel="stylesheet" href="assets/style.css?v2.10">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TX85XPWGL0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TX85XPWGL0');
+</script>
     <style>
         .progress-container {
           position: relative;
