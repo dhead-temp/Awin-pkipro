@@ -1,9 +1,16 @@
 <?php
 const API_KEY = "BYzWKMwjN4XZdPNMzBN5IoNzOmN7A9";
-const API_URL = "https://api.cloudways.com/api/v1";
+const API_URL = "https://api.cloudways.com/api/v1/git/pull";
 const EMAIL   = "iamvishalsharma423@gmail.com";
 
-// Use this function to contact the Cloudways API
+/* 
+    examples
+    const BranchName = "master";
+    const GitUrl = "git@bitbucket.org:user22/repo_name.git";
+*/
+
+
+// Use this function to contact CW API
 function callCloudwaysAPI($method, $url, $accessToken, $post=[])
 {
     $baseURL = API_URL;
@@ -11,7 +18,6 @@ function callCloudwaysAPI($method, $url, $accessToken, $post=[])
     curl_setopt($ch, CURLOPT_CUSTOMREQUEST, $method);
     curl_setopt($ch, CURLOPT_URL, $baseURL.$url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-
     // Set Authorization Header
     if ($accessToken) {
         curl_setopt($ch, CURLOPT_HTTPHEADER, ['Authorization: Bearer '.$accessToken]);
@@ -31,14 +37,15 @@ function callCloudwaysAPI($method, $url, $accessToken, $post=[])
 
     $output   = curl_exec($ch);
     $httpcode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-
     if ($httpcode != '200') {
         die('An error occurred code: '.$httpcode.' output: '.substr($output, 0, 10000));
     }
 
     curl_close($ch);
     return json_decode($output);
-}
+
+}//end callCloudwaysAPI()
+
 
 // Fetch Access Token
 $tokenResponse = callCloudwaysAPI(
@@ -53,21 +60,14 @@ $tokenResponse = callCloudwaysAPI(
 
 $accessToken = $tokenResponse->access_token;
 
-// Array of Cloudways applications and their IDs
 $apps = [
-    "pokipro awin" => 3382098,
-    "APP_NAME_2" => APP_ID_2,
-    // Add as many apps as you need
+    "Awin-pkipro" => 3382098,
 ];
 
-// Get the event data from the GitHub webhook payload
 $eventData = json_decode(trim(file_get_contents("php://input")), true);
-
-// Get the Cloudways app ID based on the GitHub repository name
 $app_id    = $apps[$eventData['repository']['name']];
 file_put_contents('github_pull.txt', json_encode($eventData) . "\n\n", FILE_APPEND);
 
-// Call the Cloudways API to deploy the changes
 $gitPullResponse = callCloudwaysAPI(
     'POST',
     '/git/pull',
@@ -76,6 +76,26 @@ $gitPullResponse = callCloudwaysAPI(
         'server_id'   => "714825",
         'app_id'      => $app_id,
         'git_url'     => $eventData['repository']['ssh_url'],
-        'branch_name' => "BRANCH_NAME_HERE",
+        'branch_name' => "main",
+    /*
+        Uncomment it if you want to use deploy path, Also add the new parameter in your link
+        'deploy_path' => $_GET['deploy_path']
+    */
     ]
 );
+
+ 
+
+function getEventData()
+{
+    $data = trim(file_get_contents("php://input"));
+    $fp   = fopen("eventData.txt", "a");
+    // opens file in append mode
+    fwrite($fp, "\n\nDATA: ".$data);
+    fwrite($fp, "\nPOST: ".json_encode($_POST));
+    fclose($fp);
+
+}//end getEventData()
+
+
+// getEventData();
