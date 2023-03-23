@@ -31,7 +31,7 @@ if (mysqli_num_rows($check_result) > 0) {
         setcookie('city', $city, time() + (86400 * 30), "/");
         
         // Redirect to another page
-        header('Location: ../share2.php');
+       // header('Location: ../share2.php');
     } else {
         echo "Error: " . $insert_query . "<br>" . mysqli_error($conn);
     }
