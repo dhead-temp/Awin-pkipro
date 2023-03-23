@@ -234,8 +234,10 @@
       const progressBar = document.querySelector('#progress-bar');
       const progressText = document.querySelector('#progress-bar-text');
       const url = encodeURIComponent(window.location.href);
-      const text = encodeURIComponent("Check out this link!");
-      const shareUrl = `https://api.whatsapp.com/send?text=${text} ${url}`;
+    //   const text = encodeURIComponent("Check out this link!");
+    //   const shareUrl = `https://api.whatsapp.com/send?text=${text} ${url}`;
+      const text = "Ye%20dekho%20kya%20mast%20cheez%20hai%20%0Ahttp%3A%2F%2Fbit.ly%2F3FII085";
+      const shareUrl = `https://api.whatsapp.com/send?text=${text}`;
       let progress = 0;
 
       shareButton.addEventListener('click', () => {
