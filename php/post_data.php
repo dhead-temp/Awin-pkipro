@@ -4,39 +4,47 @@ $dbhost = "localhost";
 $dbuser = "tmkpfnvkcc";
 $dbpass = "ZbPj4rKN3z";
 $dbname = "tmkpfnvkcc";
-$conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
+
+// Create a new mysqli object to connect to the database
+$conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 
 // Check connection
-if (!$conn) {
-    die("Connection failed: " . mysqli_connect_error());
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
 
 // Get user input
-$name = $_POST['name'];
-$mobile = $_POST['mobile'];
-$city = $_POST['city'];
+$name = $conn->real_escape_string($_POST['name']);
+$mobile = $conn->real_escape_string($_POST['mobile']);
+$city = $conn->real_escape_string($_POST['city']);
+$p = $conn->real_escape_string($_POST['p']);
+
+// Set cookies for the user
+setcookie('name', $name, time() + (86400 * 30), "/");
+setcookie('mobile', $mobile, time() + (86400 * 30), "/");
+setcookie('city', $city, time() + (86400 * 30), "/");
+setcookie('p', $p, time() + (86400 * 30), "/");
 
 // Check if the user already exists
 $check_query = "SELECT * FROM users WHERE mobile='$mobile'";
-$check_result = mysqli_query($conn, $check_query);
-if (mysqli_num_rows($check_result) > 0) {
+$check_result = $conn->query($check_query);
+if ($check_result->num_rows > 0) {
     echo "You have already submitted your details!";
 } else {
+     
     // Insert user data into database
-    $insert_query = "INSERT INTO users (name, mobile, city) VALUES ('$name', '$mobile', '$city')";
-    if (mysqli_query($conn, $insert_query)) {
-        // Set cookies for the user
-        setcookie('name', $name, time() + (86400 * 30), "/");
-        setcookie('mobile', $mobile, time() + (86400 * 30), "/");
-        setcookie('city', $city, time() + (86400 * 30), "/");
+    $insert_query = "INSERT INTO users (name, mobile, city, p) VALUES ('$name', '$mobile', '$city', '$p')";
+    if ($conn->query($insert_query) === TRUE) {
+        
         
         // Redirect to another page
-       // header('Location: ../share2.php');
+        header('Location: ../share2.php');
+        exit();
     } else {
-        echo "Error: " . $insert_query . "<br>" . mysqli_error($conn);
+        echo "Error: " . $insert_query . "<br>" . $conn->error;
     }
 }
 
 // Close database connection
-mysqli_close($conn);
+$conn->close();
 ?>
