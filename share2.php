@@ -5,7 +5,34 @@
 include('php/head.php'); 
 ?>  
     <title>Share With Friends</title>
+    <style>
+    .progress-container {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin-top: 20px;
+  }
 
+  .progress-bar {
+    position: absolute;
+    top: -3px;
+    left: -8px;
+    bottom: 0;
+    width: 10%;
+    background-image: url(assets/img/bar3.svg);
+    background-position: center;
+    transform-origin: bottom left;
+    transition: all 0.5s ease-in-out;
+   transform: skew(168deg);
+
+  }
+  
+  .recent_win{
+      margin:20px;
+  }
+</style>
 </head>
 <body>
 <?php 
