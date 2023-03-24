@@ -4,7 +4,7 @@
 <?php 
 include('php/head.php'); 
 ?>  
-    <title>Share With Friends</title>
+    <title>Share</title>
     <style>
     .progress-container {
     position: relative;

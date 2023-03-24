@@ -5,7 +5,7 @@
 include('php/head.php'); 
 ?>  
   
-    <title>Answer & Win</title>
+    <title>Q3</title>
 
 </head>
 <body>
