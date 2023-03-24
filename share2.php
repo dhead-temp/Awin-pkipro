@@ -77,6 +77,10 @@ include('php/header.php');
                         </svg>                                                
                         <span>Download App (+35 Point)</span>
                     </button>
+                    <button href="#" class="payUPIbtn r-flex ali-c jut-c " id="next-button" onclick="window.location.href = '#';" disabled>
+                        <span>Claim Prize</span>
+                        
+                    </button>
                 </div>
     
 
