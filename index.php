@@ -1,6 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
 <?php 
- include('php/above.php'); 
-?>
+include('php/head.php'); 
+?>  
+  
+    <title>Answer & Win</title>
+
+</head>
+<body>
+<?php 
+include('php/header.php'); 
+?>  
+    <main>
+        <div class="container ">
+        <?php 
+include('php/header-2-question.php'); 
+?>  
+            
             <div class="main-container-box">
                 <div class="qution-box">
                     <span>Q1</span>
