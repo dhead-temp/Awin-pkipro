@@ -3,7 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- ==== link === -->
-    <link rel="stylesheet" href="assets/style.css?v3.12">
+    <link rel="stylesheet" href="/assets/style.css?v3.13">
     <script src="assets/script.js?v1.14"></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TX85XPWGL0"></script>
