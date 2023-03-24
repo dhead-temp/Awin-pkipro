@@ -135,6 +135,7 @@ include('php/header.php');
       downloadButton.addEventListener('click', () => {
         progress += 30;
         updateProgressBar();
+        downloadButton.disabled = true;
       });
 
       function updateProgressBar() {
