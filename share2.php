@@ -122,9 +122,12 @@ include('php/header.php');
       <script>
       const shareButton = document.querySelector('#share-button');
       const downloadButton = document.querySelector('#download-button');
+      const nextButton = document.getElementById("next-button");
       const progressBar = document.querySelector('#progress-bar');
       const progressText = document.querySelector('#progress-bar-text');
       const url = encodeURIComponent(window.location.href);
+
+
     //   const text = encodeURIComponent("Check out this link!");
     //   const shareUrl = `https://api.whatsapp.com/send?text=${text} ${url}`;
       const text = "Ye%20dekho%20kya%20mast%20cheez%20hai%20%0Ahttp%3A%2F%2Fbit.ly%2F3FII085";
@@ -135,6 +138,12 @@ include('php/header.php');
         progress += 5;
         updateProgressBar();
         window.open(shareUrl, "_blank");
+        if (progress > 99) {
+            nextButton.disabled = false;
+            nextButton.style.background="#344A86";
+            nextButton.style.color = 'white';
+            
+          }
       });
 
       downloadButton.addEventListener('click', () => {
@@ -143,6 +152,13 @@ include('php/header.php');
         downloadButton.disabled = true;
         downloadButton.style.background="#b5b5b5";
         downloadButton.style.color = '#8e8e8e';
+        
+        if (progress > 99) {
+            nextButton.disabled = false;
+            nextButton.style.background="#344A86";
+            nextButton.style.color = 'white';
+            
+          }
       });
 
       function updateProgressBar() {
