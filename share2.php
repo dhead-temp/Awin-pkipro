@@ -138,7 +138,6 @@ include('php/header.php');
         downloadButton.disabled = true;
         nextButton.style.background="#b5b5b5";
         nextButton.style.color = '#8e8e8e';
-
       });
 
       function updateProgressBar() {
