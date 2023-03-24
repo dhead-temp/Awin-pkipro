@@ -136,8 +136,8 @@ include('php/header.php');
         progress += 30;
         updateProgressBar();
         downloadButton.disabled = true;
-        nextButton.style.background="#b5b5b5";
-        nextButton.style.color = '#8e8e8e';
+        downloadButton.style.background="#b5b5b5";
+        downloadButton.style.color = '#8e8e8e';
       });
 
       function updateProgressBar() {
