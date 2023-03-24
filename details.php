@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <?php 
-include('php/header.php'); 
+include('php/head.php'); 
 ?>  
     <title>Submit Details</title>
 
