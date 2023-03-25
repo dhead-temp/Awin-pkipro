@@ -9,7 +9,7 @@
                     </svg>                        
                     <span>Play423</span>
                 </div>
-                <a href="#" class="right_navBar">Check Other Contests</a>
+                <a href="#" onclick="gtag('event', 'check_other_contest');" class="right_navBar">Check Other Contests</a>
             </nav>
         </div>
         

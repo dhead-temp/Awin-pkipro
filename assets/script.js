@@ -12,6 +12,7 @@
    function selected_answer(ele) {
      var value = ele.value;
      var name = ele.name;
+    
 
     // Action 0 - Set the background color based on the value
     const progressBar = document.querySelector('#progress_bar > span');
@@ -35,6 +36,10 @@
    // Testings
      console.log(value);
      console.log(name);
+     gtag('event', 'answer', {
+      name: value,
+      
+    });
 
    }
    // Redorection function after 2000 Ms

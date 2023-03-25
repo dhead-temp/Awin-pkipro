@@ -18,7 +18,7 @@ include('php/header.php');
                     <img src="assets/img/money.png" alt="money">
                 </div>
                 <div class="rightHero_textbox">Answer & Win 4100 Rs</div>
-                <a href="#" class="winList" >See Winners List</a>
+                <a href="#" class="winList" onclick="gtag('event', 'see_winners_list');" >See Winners List</a>
             </div>
             <div class="main-container-box">
                 <div class="form_heading">Enter Your Info to Proceed </div>
@@ -31,7 +31,7 @@ include('php/header.php');
                         <input type="text" name="city_name" id="city_name" placeholder="Your City">
                         <label for="city_name" class="from_lable">Your City</label>
                         
-                        <button type="submit">Submit Details</button>
+                        <button type="submit" onclick="gtag('event', 'submitted_details');">Submit Details</button>
                     </div>
                 </form>
                 
