@@ -56,7 +56,7 @@ include('php/header.php');
                     <img src="assets/img/money.png" alt="money">
                 </div>
                 <div class="rightHero_textbox">Answer & Win 4100 Rs</div>
-                <a href="#" class="winList" onclick="gtag('event', 'see_winners_list');">See Winners List</a>
+                <a href="#winnerslist" class="winList" onclick="gtag('event', 'see_winners_list');">See Winners List</a>
             </div>
             <div class="main-container-box">
                 
