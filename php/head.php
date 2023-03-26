@@ -20,3 +20,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="assets/img/money.png">
 
+    <style>
+    .progress-container {
+    position: relative;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin-top: 20px;
+  }
+
+  .progress-bar {
+    position: absolute;
+    top: -3px;
+    left: -8px;
+    bottom: 0;
+    width: 10%;
+    background-image: url(assets/img/bar3.svg);
+    background-position: center;
+    transform-origin: bottom left;
+    transition: all 0.5s ease-in-out;
+   transform: skew(168deg);
+
+  }
+  
+  .recent_win{
+      margin:20px;
+  }
+</style>
