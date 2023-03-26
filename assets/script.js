@@ -37,8 +37,7 @@
      console.log(value);
      console.log(name);
      gtag('event', 'answer', {
-      name: value,
-      
+      name : value
     });
 
    }
