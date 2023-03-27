@@ -58,8 +58,9 @@ include('php/header.php');
                 </div>
     
 
-                <?php include('php/winners.php'); ?>  
+                  
     </main>
+    <?php include('php/winners.php'); ?>
     <!-- <footer></footer> -->
 <!-- 
     <script>
