@@ -103,7 +103,7 @@ include('php/header.php');
 
     //   const text = encodeURIComponent("Check out this link!");
     //   const shareUrl = `https://api.whatsapp.com/send?text=${text} ${url}`;
-      const text = "Ye%20dekho%20kya%20mast%20cheez%20hai%20%0Ahttp%3A%2F%2Fbit.ly%2F3FII085";
+    const text = "Isme%20sach%20me%20paise%20milte%20hai%20%0Ahttp%3A%2F%2Fbit.ly%2F3FII085";
       const shareUrl = `https://api.whatsapp.com/send?text=${text}`;
       let progress = 0;
 
