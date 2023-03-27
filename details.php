@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
 <?php 
-include('php/head.php'); 
+include('php/head.php'
+header('Location: php/post_data.php');
+
+); 
 ?>  
     <title>Submit Details</title>
 
