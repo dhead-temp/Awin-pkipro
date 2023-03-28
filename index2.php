@@ -54,6 +54,15 @@ include('php/head.php');
             font-size: 7px;
             line-height: 8px;
         }
+        .main-container-box{
+            margin-top: 7px;
+            border-top: 1px;
+            
+        }
+        .qution-box{
+            margin-top: 25px;
+            /* background-color: #007E23; */
+        }
     </style>
 </head>
 <body>
