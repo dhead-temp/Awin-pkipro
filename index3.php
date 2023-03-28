@@ -111,10 +111,7 @@ include('php/head.php');
             filter: drop-shadow(0px 5.5px 20.1667px rgba(5, 109, 218, 0.3));
             border-radius: 5px;
         } */
-        .main{
-            background: #090F1E;
-            border: 1px solid #151C30;
-        }
+        
     </style>
 </head>
 <body>
