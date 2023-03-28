@@ -27,7 +27,7 @@ include('php/head.php');
             text-decoration: none;
         }
         .main-hero-cont{
-            margin-top: 0px;
+            margin-top: 14px;
         }
         .side_clo_heading {
             position: absolute;
