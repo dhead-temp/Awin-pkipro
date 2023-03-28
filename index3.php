@@ -105,12 +105,12 @@ include('php/head.php');
         .main-heading{
             color: #ffffff;
         }
-        .answer_box:checked+label{
+        /* .answer_box:checked+label{
             border: 1px solid #344a86;
             background: linear-gradient(180deg, #0095FF 0%, rgba(4, 119, 227, 0.526042) 99.99%, rgba(8, 85, 196, 0) 100%);
             filter: drop-shadow(0px 5.5px 20.1667px rgba(5, 109, 218, 0.3));
             border-radius: 5px;
-        }
+        } */
         .main{
             background: #090F1E;
             border: 1px solid #151C30;
