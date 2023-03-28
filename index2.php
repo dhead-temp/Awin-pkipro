@@ -58,7 +58,7 @@ include('php/head.php');
         .main-container-box{
             margin-top: 7px;
             border-top: 1px solid #e4e4e4;
-            
+            border-radius: 5px;
         }
         .qution-box{
             margin-top: 25px;
