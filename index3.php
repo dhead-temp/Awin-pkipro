@@ -8,6 +8,9 @@ include('php/head.php');
     <title>Answer & Win Prizes</title>
 
     <style>
+        body{
+            background: #090F1E;
+        }
         header{
             background-color: #090F1E;
             padding: 19px 0px;
@@ -116,6 +119,19 @@ include('php/head.php');
             background: linear-gradient(180deg, #0095FF 0%, rgba(4, 119, 227, 0.526042) 99.99%, rgba(8, 85, 196, 0) 100%);
             filter: drop-shadow(0px 5.5px 20.1667px rgba(5, 109, 218, 0.3));
             /* border: 1px solid rgba(5, 109, 218, 0.3);  */
+        }
+        .win_user{
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 16px;
+            background: linear-gradient(180deg, #FFF173 0.52%, #FFB800 100%);
+            color: #090F1E;
+        }
+        .win_user_right{
+            color: #007E23;
+        }
+        .recent_head{
+            color: #ffffff;
         }
     </style>
 </head>
@@ -241,7 +257,7 @@ include('php/header3-q.php');
         </div>
     </main>
     <!-- <footer></footer> -->
-    <?php include('php/winners.php'); ?>  
+    <?php include('php/winners3.php'); ?>  
 
     <script>
     
