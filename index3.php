@@ -90,7 +90,7 @@ include('php/head.php');
         .main-hero-cont{
             padding:17px;
         }
-<<<<<<< HEAD
+
         main{
             background: #090F1E;
             border: 1px solid #151C30;
@@ -111,12 +111,10 @@ include('php/head.php');
             filter: drop-shadow(0px 5.5px 20.1667px rgba(5, 109, 218, 0.3));
             border-radius: 5px;
         }
-=======
         .main{
             background: #090F1E;
             border: 1px solid #151C30;
         }
->>>>>>> ec508578ec7db4328035e9b006f3edaa6bc51a10
     </style>
 </head>
 <body>
