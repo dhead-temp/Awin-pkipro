@@ -64,7 +64,8 @@ include('php/head.php');
             width:100%;
         }
         .hero-rightimg-box {
-            background: #b34b0047;
+            background: linear-gradient(180deg, #0095FF 0%, rgba(4, 119, 227, 0.526042) 99.99%, rgba(8, 85, 196, 0) 100%);
+            filter: drop-shadow(0px 6px 22px rgba(5, 109, 218, 0.3));
             border-radius: 70px;
             display: flex;
             align-items: center;
