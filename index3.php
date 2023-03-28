@@ -90,10 +90,33 @@ include('php/head.php');
         .main-hero-cont{
             padding:17px;
         }
+<<<<<<< HEAD
+        main{
+            background: #090F1E;
+            border: 1px solid #151C30;
+        }
+        .qution-box{
+            background: linear-gradient(180deg, #007E23 0%, rgba(0, 126, 35, 0.5625) 96.35%, rgba(0, 126, 35, 0) 100%);
+            border: 1px solid #141B2E;
+        }
+        .color_dash{
+            background: linear-gradient(180deg, #007E23 0%, rgba(0, 126, 35, 0.5625) 96.35%, rgba(0, 126, 35, 0) 100%);
+        }
+        .main-heading{
+            color: #ffffff;
+        }
+        .answer_box:checked+label{
+            border: 1px solid #344a86;
+            background: linear-gradient(180deg, #0095FF 0%, rgba(4, 119, 227, 0.526042) 99.99%, rgba(8, 85, 196, 0) 100%);
+            filter: drop-shadow(0px 5.5px 20.1667px rgba(5, 109, 218, 0.3));
+            border-radius: 5px;
+        }
+=======
         .main{
             background: #090F1E;
             border: 1px solid #151C30;
         }
+>>>>>>> ec508578ec7db4328035e9b006f3edaa6bc51a10
     </style>
 </head>
 <body>
