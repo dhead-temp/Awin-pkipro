@@ -133,6 +133,9 @@ include('php/head.php');
         .recent_head{
             color: #ffffff;
         }
+        .win_user_left{
+            gap: 6px;
+        }
     </style>
 </head>
 <body>
