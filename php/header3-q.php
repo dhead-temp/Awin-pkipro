@@ -1,4 +1,4 @@
-<div class="main-hero-cont" style="background: #FFE1CB; border-radius: 10px;">
+<div class="main-hero-cont" style="background: #090F1E; color: #ffffff; border: 1px solid #141B2E; border-radius: 10px;">
                 <!-- <div class="heroMoney_img">
                     <img src="money.png?version=0.0.3" alt="money">
                 </div>
@@ -26,7 +26,7 @@
                             <div class="hero-rightimg-box">
                                 <img src="assets/img/money.png?version=0.0.5" alt="money">
                             </div>
-                            <a href="#">T & C applied</a>
+                            <!-- <a href="#">T & C applied</a> -->
                         </div>
                     </div>
             </div>

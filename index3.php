@@ -8,6 +8,27 @@ include('php/head.php');
     <title>Answer & Win Prizes</title>
 
     <style>
+        header{
+            background-color: #090F1E;
+            padding: 19px 0px;
+        }
+        nav{
+            padding:11px 12px;
+            border-radius: 10px;
+        }
+        .right_navBar{
+            font-weight: 700;
+            font-size: 10px;
+            line-height: 12px;
+            background: #FFD63B;
+            color: #2C2C2C;
+            padding: 2px 7px;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+        .main-hero-cont{
+            margin-top: 0px;
+        }
         .side_clo_heading {
             position: absolute;
             top: 15px;
@@ -63,6 +84,9 @@ include('php/head.php');
         .qution-box{
             margin-top: 25px;
             /* background-color: #007E23; */
+        }
+        .main-hero-cont{
+            padding:17px;
         }
     </style>
 </head>
