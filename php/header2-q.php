@@ -1,4 +1,4 @@
-<div class="main-hero-cont" style="background: #FFE1CB;">
+<div class="main-hero-cont" style="background: #FFE1CB; border-radius: 10px;">
                 <!-- <div class="heroMoney_img">
                     <img src="money.png?version=0.0.3" alt="money">
                 </div>
