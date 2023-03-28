@@ -114,7 +114,7 @@ include('php/head.php');
         .answer_box:checked+label{
             background: linear-gradient(180deg, #0095FF 0%, rgba(4, 119, 227, 0.526042) 99.99%, rgba(8, 85, 196, 0) 100%);
             filter: drop-shadow(0px 5.5px 20.1667px rgba(5, 109, 218, 0.3));
-            border: 1px solid rgba(5, 109, 218, 0.3); 
+            /* border: 1px solid rgba(5, 109, 218, 0.3);  */
         }
     </style>
 </head>
