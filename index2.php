@@ -49,10 +49,11 @@ include('php/head.php');
             align-items: center;
             justify-content: center;
         }
-        .mainherorightcont span {
+        .mainherorightcont a {
             font-weight: 100;
             font-size: 7px;
             line-height: 8px;
+            color: #000000;
         }
         .main-container-box{
             margin-top: 7px;
