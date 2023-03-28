@@ -80,6 +80,8 @@ include('php/head.php');
             margin-top: 7px;
             border-top: 1px solid #e4e4e4;
             border-radius: 5px;
+            background-color: #090F1E;
+            border: 1px solid #151C30;
         }
         .qution-box{
             margin-top: 25px;
@@ -87,6 +89,10 @@ include('php/head.php');
         }
         .main-hero-cont{
             padding:17px;
+        }
+        .main{
+            background: #090F1E;
+            border: 1px solid #151C30;
         }
     </style>
 </head>
