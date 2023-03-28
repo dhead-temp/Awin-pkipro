@@ -26,7 +26,7 @@
                             <div class="hero-rightimg-box">
                                 <img src="assets/img/money.png?version=0.0.5" alt="money">
                             </div>
-                            <span>T & C applied</span>
+                            <a href="#">T & C applied</a>
                         </div>
                     </div>
             </div>
