@@ -19,7 +19,7 @@
                 </div>
                 <div class="mainhero-cont-box r-flex ali-c jut-sb">
                         <div class="mainheroleftcont">
-                            <div class="main-heroHeading">Answer & Win 423 Rs</div>
+                            <div class="main-heroHeading">Answer & Get 423 Rs</div>
                             <div class="main-herohelpHeading">for Every Participant</div>
                         </div>
                         <div class="mainherorightcont">
