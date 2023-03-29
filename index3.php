@@ -100,7 +100,7 @@ include('php/head.php');
             border: 1px solid #151C30;
         }
         .qution-box{
-            background: linear-gradient(180deg, #007E23 0%, rgba(0, 126, 35, 0.5625) 96.35%, rgba(0, 126, 35, 0) 100%);
+            background: linear-gradient(180deg, #007E23 0%, rgba(0, 126, 35, 0.5625) 96.35%, rgba(0, 126, 35, 0) 110%);
             border: 1px solid #141B2E;
         }
         .color_dash{
