@@ -18,7 +18,7 @@
 
 </script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="assets/img/money.png">
+    <link rel="icon" type="image/x-icon" href="/assets/img/money.png">
 
     <style>
     .progress-container {
