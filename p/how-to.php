@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<?php 
+include('../php/head.php'); 
+?>  
 	<title>How to Participate in Our Answer and Win Website</title>
 	<style>
 		body {

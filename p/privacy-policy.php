@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+<?php 
+include('../php/head.php'); 
+?>  
 	<title>Privacy Policy</title>
 	<style>
 		body {
