@@ -54,9 +54,9 @@
    function playSound(value) {
     var audioElement = document.createElement('audio');
     
-    if (value === 1) {
+    if (value === "1") {
       audioElement.setAttribute('src', '/assets/audio/right1.mp3');
-    } else if (value === 0) {
+    } else if (value === "0") {
       audioElement.setAttribute('src', '/assets/audio/wrong.mp3');
     }
     
