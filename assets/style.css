@@ -10,6 +10,7 @@
     scroll-snap-stop: always;
     -webkit-tap-highlight-color: transparent;
     font-family: 'Roboto', sans-serif;
+    transition: all 0.1s ease-in-out;
 }
 
 .hiedde-cont{
@@ -317,6 +318,9 @@ nav {
     margin: 7px 0px;
     transition: all 0.1s ease-in;
 
+}
+.answer-box-label:hover{
+    padding: 9px 12px 9px 15px;
 }
 .left-awn{
 
@@ -1059,6 +1063,13 @@ nav {
     border: none;
     cursor: pointer;
 }
+
+.whatsAppBtn:hover{  
+    padding: 11px -5px;
+
+}
+
+
 .appDownlodBtn{
     background-color: #344A86;
     gap: 5px;
@@ -1072,6 +1083,10 @@ nav {
     border: none;
     cursor: pointer;
 }
+.appDownlodBtn:hover{
+    padding: 11px -5px;
+}
+
 .payUPIbtn{
     background-color: #B5B5B5;
     gap: 5px;
