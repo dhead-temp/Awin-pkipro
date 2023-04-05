@@ -5,7 +5,7 @@
 include('../php/head.php'); 
 ?>  
   
-    <title>Answer & Win Prizes</title>
+    <title>Answer & Win Prizes - Q1</title>
 
     <style>
         .side_clo_heading {

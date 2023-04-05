@@ -68,8 +68,10 @@
     
     audioElement.loop = true;
     audioElement.src = '/assets/audio/time.mp3';
-    
-    audioElement.play();
+
+    if (document.title.includes('Q1') || document.title.includes('Q2') || document.title.includes('Q3')) {
+      audioElement.play();
+
   }
   
   window.addEventListener('load', playBackgroundMusic);
