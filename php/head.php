@@ -4,7 +4,7 @@
 
     <!-- ==== link === -->
     <link rel="stylesheet" href="/assets/style.css?v3.13">
-    <script src="/assets/script.js?v1.15"></script>
+    <script src="/assets/script.js?v1.16"></script>
       <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
 <!-- Google tag (gtag.js) -->
