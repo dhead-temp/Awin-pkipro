@@ -101,7 +101,18 @@ include('php/header.php');
              window.open(shareUrl, "_blank");
         });
 
+
         //   point value increase;
+        function playBackgroundMusic1() {
+  var audioElement1 = new Audio();
+  
+  audioElement1.loop = true;
+  audioElement1.src = '/assets/audio/result.mp3';
+     audioElement1.play();
+  
+}
+
+window.addEventListener('load', playBackgroundMusic1);
 
       </script>
    
