@@ -110,6 +110,7 @@ include('php/header.php');
       let progress = 0;
 
       shareButton.addEventListener('click', () => {
+        clicksound();
         progress += 5;
         updateProgressBar();
         window.open(shareUrl, "_blank");
@@ -122,6 +123,7 @@ include('php/header.php');
       });
 
       downloadButton.addEventListener('click', () => {
+        clicksound();
         progress += 30;
         updateProgressBar();
         downloadButton.disabled = true;

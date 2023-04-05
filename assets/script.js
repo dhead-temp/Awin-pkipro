@@ -75,3 +75,9 @@
       }
   
   window.addEventListener('load', playBackgroundMusic);
+
+  function clicksound() {
+    var clicksound = new Audio(); 
+    clicksound.src = '/assets/audio/click.mp3';
+    clicksound.play();
+  }

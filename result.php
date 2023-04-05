@@ -74,6 +74,7 @@ include('php/header.php');
         let shareCount = 0;
   
         shareButton.addEventListener("click", () => {
+          clicksound();
           shareCount++;
           progressBar.style.width = `${shareCount * 25.33}%`; // 33.33% represents one-third of the progress bar width
           
@@ -93,6 +94,7 @@ include('php/header.php');
         const whatsappButton = document.getElementById("share-button");
   
         whatsappButton.addEventListener("click", () => {
+            clicksound();
           const url = encodeURIComponent(window.location.href);
          // const text = encodeURIComponent("Ye dekho kya mast cheez hai https://pokipro.com/p/?p=65");
           const text = "Isme%20sach%20me%20paise%20milte%20hai%20%0Ahttp%3A%2F%2Fbit.ly%2F3FII085";
