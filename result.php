@@ -106,7 +106,7 @@ include('php/header.php');
         function playBackgroundMusic1() {
   var audioElement1 = new Audio();
   
-  audioElement1.loop = true;
+  audioElement1.loop = false;
   audioElement1.src = '/assets/audio/result.mp3';
      audioElement1.play();
   
