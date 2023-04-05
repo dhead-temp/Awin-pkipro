@@ -52,16 +52,24 @@
    // Play sound or right and wrong question
 
    function playSound(value) {
-    var audioElement = document.createElement('audio');
+    var audioElement = new Audio();
     
     if (value === "1") {
-      audioElement.setAttribute('src', '/assets/audio/right1.mp3');
+      audioElement.src = '/assets/audio/right1.mp3';
     } else if (value === "0") {
-      audioElement.setAttribute('src', '/assets/audio/wrong.mp3');
+      audioElement.src = '/assets/audio/wrong.mp3';
     }
     
     audioElement.play();
   }
 
-
+  function playBackgroundMusic() {
+    var audioElement = new Audio();
+    
+    audioElement.loop = true;
+    audioElement.src = '/assets/audio/time.mp3';
+    
+    audioElement.play();
+  }
   
+  window.addEventListener('load', playBackgroundMusic);
