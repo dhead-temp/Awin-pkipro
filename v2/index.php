@@ -7,66 +7,6 @@ include('../php/head.php');
   
     <title>Answer & Win Prizes - Q1</title>
 
-    <style>
-        .side_clo_heading {
-            position: absolute;
-            top: 15px;
-            gap: 4px;
-            display: flex;
-            background: #007E23;
-            align-items: center;
-            font-weight: 500;
-            font-size: 11px;
-            line-height: 13px;
-            color: #FFFFFF;
-            left: 0;
-            padding: 5px;
-            border-radius: 0px 115px 111px 0px;
-        }
-        .main-heroHeading {
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 21px;
-            margin-top:12px;
-        }
-        .main-herohelpHeading {
-            font-weight: 300;
-            font-size: 12px;
-            line-height: 14px;
-        }
-        .mainherorightcont {
-            width: 100%;
-            max-width: 72px;
-            text-align: center;
-        }
-        .hero-rightimg-box img {
-            width:100%;
-        }
-        .hero-rightimg-box {
-            background: #b34b0047;
-            border-radius: 70px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .mainherorightcont a {
-            font-weight: 100;
-            font-size: 7px;
-            line-height: 8px;
-            color: #000000;
-        }
-        .main-container-box{
-            margin-top: 7px;
-            border-top: 1px solid #e4e4e4;
-            border-radius: 5px;
-        }
-        .qution-box{
-            margin-top: 25px;
-            /* background-color: #007E23; */
-        }
-    </style>
-</head>
-<body>
 <?php 
 include('php/header.php'); 
 ?>  
