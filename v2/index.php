@@ -10,6 +10,7 @@ include('../php/head.php');
     <style>
         footer {
    text-align: center;
+   margin:20px;
 }
 
 footer ul {
@@ -150,6 +151,8 @@ include('php/header.php');
             
         </div>
     </main>
+    <?php include('../php/winners.php'); ?>  
+
     <footer>
    <ul>
       <li><a href="/p/terms-of-usage.php">Terms of Usage</a></li>
@@ -159,7 +162,6 @@ include('php/header.php');
 </footer>
 
     <!-- <footer></footer> -->
-    <?php include('../php/winners.php'); ?>  
 
     <script>
     
