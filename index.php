@@ -131,7 +131,7 @@ include('php/header-2-question.php');
     </main>
     <!-- <footer></footer> -->
     <?php include('php/winners.php'); 
-    include('php/winners.php'); 
+    include('php/footer.php'); 
     ?>  
 
     <script>
