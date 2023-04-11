@@ -1240,3 +1240,29 @@ input::-webkit-inner-spin-button {
 }
 
 
+footer {
+    text-align: center;
+    margin:20px;
+ }
+ 
+ footer ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+ }
+ 
+ footer ul li a {
+    color: #999;
+    text-decoration: none;
+ }
+ 
+ footer ul li a:hover {
+    color: #333;
+ }
+ 
