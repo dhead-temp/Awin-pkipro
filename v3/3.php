@@ -5,7 +5,7 @@
 include('../php/head.php'); 
 ?>  
   
-    <title>Q3 V3</title>
+    <title>Q3 - V3</title>
 
 
         <?php 

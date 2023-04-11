@@ -5,32 +5,35 @@
 include('../php/head.php'); 
 ?>  
   
-    <title>Q1 - V2</title>
+    <title>Q2 - V2</title>
 
 <?php 
 include('php/header.php'); 
 ?>  
 
             
-            <div class="main-container-box">
+<div class="main-container-box">
                 <div class="qution-box">
-                    <span>Q1</span>
+                    <span>Q2</span>
                 </div>
                 <div class="q_proces_bar r-flex ali-c jut-sb">
+                    <span class="proces_dash"></span>
                     <span class="proces_dash color_dash"></span>
                     <span class="proces_dash"></span>
-                    <span class="proces_dash"></span>
                 </div>
-                <div class="main-heading">भारत किस महाद्वीप में स्थित है ?</div>
+                <div class="main-heading">अरविन्द केजरीवाल कहाँ के मुख्यमंत्री है ?</div>
                 <div class="choose-qution-from">
                     <form action="#" id="myForm" >
-                        <input type="radio" value="0" name="a1" id="awn_1" class="answer_box" onclick="selected_answer(this)">
+                        <input type="radio" value="0" name="a2" id="awn_1" class="answer_box" onclick="selected_answer(this)">
                         <label for="awn_1" class="answer-box-label r-flex ali-c jut-sb">
                             <div class="left-awn r-flex ali-c jut-c">
                                 <span>A</span>
                             </div>
                             <div class="mid-awn">
-                            अमेरिका
+                                                                भारत के 
+
+
+
                             </div>
                             <div class="right-awn">
                                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -45,15 +48,13 @@ include('php/header.php');
                             </div>
                         </label>
 
-                        <input type="radio" value="0" name="a1" id="awn_2" class="answer_box" onclick="selected_answer(this)">
+                        <input type="radio" value="0" name="a2" id="awn_2" class="answer_box" onclick="selected_answer(this)">
                         <label for="awn_2" class="answer-box-label r-flex ali-c jut-sb">
                             <div class="left-awn r-flex ali-c jut-c">
                                 <span>B</span>
                             </div>
                             <div class="mid-awn">
-                            ऑस्ट्रेलिया 
-
-
+                            पाकिस्तान के 
                             </div>
                             <div class="right-awn-2">
                                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -68,13 +69,13 @@ include('php/header.php');
                             </div>
                         </label>
 
-                        <input type="radio" value="1" name="a1" id="awn_3" class="answer_box" onclick="selected_answer(this)">
+                        <input type="radio" value="0" name="a2" id="awn_3" class="answer_box" onclick="selected_answer(this)">
                         <label for="awn_3" class="answer-box-label r-flex ali-c jut-sb">
                             <div class="left-awn r-flex ali-c jut-c">
                                 <span>C</span>
                             </div>
                             <div class="mid-awn">
-                            एशिया 
+                            पंजाब के  
                             </div>
                             <div class="right-awn-3">
                                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -89,13 +90,13 @@ include('php/header.php');
                             </div>
                         </label>
 
-                        <input type="radio" value="0" name="a1" id="awn_4" class="answer_box" onclick="selected_answer(this)">
+                        <input type="radio" value="1" name="a2" id="awn_4" class="answer_box" onclick="selected_answer(this)">
                         <label for="awn_4" class="answer-box-label r-flex ali-c jut-sb">
                             <div class="left-awn r-flex ali-c jut-c">
                                 <span>D</span>
                             </div>
                             <div class="mid-awn">
-                            किसी में नहीं 
+                            दिल्ली के 
                             </div>
                             <div class="right-awn-4">
                                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -135,7 +136,7 @@ include('php/header.php');
     <script>
     
        function myURL() {
-         document.location.href = "2.php";
+         document.location.href = "3.php";
         }
     
       </script>
