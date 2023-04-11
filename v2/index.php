@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 <?php 
-include('php/head.php'); 
+include('../php/head.php'); 
 ?>  
   
-    <title>Answer & Win Prizes</title>
+    <title>Answer & Win Prizes - Q1</title>
 
     <style>
         .side_clo_heading {
@@ -68,7 +68,7 @@ include('php/head.php');
 </head>
 <body>
 <?php 
-include('php/header.php'); 
+include('/php/header.php'); 
 ?>  
     <main>
         <div class="container ">
@@ -98,7 +98,7 @@ include('php/header.php');
                         </div>
                         <div class="mainherorightcont">
                             <div class="hero-rightimg-box">
-                                <img src="assets/img/money.png?version=0.0.5" alt="money">
+                                <img src="/assets/img/money.png?version=0.0.5" alt="money">
                             </div>
                             <a href="#">T & C applied</a>
                         </div>
