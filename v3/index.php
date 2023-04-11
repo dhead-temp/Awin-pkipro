@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <?php 
-include('php/head.php'); 
+include('../php/head.php'); 
 ?>  
   
     <title>Answer & Win Prizes</title>
@@ -158,7 +158,7 @@ include('php/head.php');
     <main>
         <div class="container ">
         <?php 
-include('php/header3-q.php'); 
+include('../php/header3-q.php'); 
 ?>  
             
             <div class="main-container-box">
@@ -273,7 +273,7 @@ include('php/header3-q.php');
         </div>
     </main>
     <!-- <footer></footer> -->
-    <?php include('php/winners3.php'); ?>  
+    <?php include('../php/winners3.php'); ?>  
 
     <script>
     
