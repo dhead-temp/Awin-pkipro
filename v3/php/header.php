@@ -24,7 +24,7 @@
                         </div>
                         <div class="mainherorightcont">
                             <div class="hero-rightimg-box">
-                                <img src="assets/img/money.png?version=0.0.5" alt="money">
+                                <img src="/assets/img/money.png?version=0.0.5" alt="money">
                             </div>
                             <!-- <a href="#">T & C applied</a> -->
                         </div>
