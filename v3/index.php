@@ -158,7 +158,7 @@ include('../php/head.php');
     <main>
         <div class="container ">
         <?php 
-include('/php/header.php'); 
+include('php/header.php'); 
 ?>  
             
             <div class="main-container-box">
