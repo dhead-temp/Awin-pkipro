@@ -7,6 +7,33 @@ include('../php/head.php');
   
     <title>Answer & Win Prizes - Q1</title>
 
+    <style>
+        footer {
+   text-align: center;
+}
+
+footer ul {
+   display: inline-block;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+
+footer ul li {
+   display: inline-block;
+   margin: 0 10px;
+}
+
+footer ul li a {
+   color: #999;
+   text-decoration: none;
+}
+
+footer ul li a:hover {
+   color: #333;
+}
+
+    </style>
 <?php 
 include('php/header.php'); 
 ?>  
@@ -123,6 +150,14 @@ include('php/header.php');
             
         </div>
     </main>
+    <footer>
+   <ul>
+      <li><a href="/p/terms-of-usage.php">Terms of Usage</a></li>
+      <li><a href="/p/privacy-policy.php">Privacy Policy</a></li>
+      <li><a href="/p/how-to.php">How To</a></li>
+   </ul>
+</footer>
+
     <!-- <footer></footer> -->
     <?php include('../php/winners.php'); ?>  
 
