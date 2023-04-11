@@ -273,7 +273,9 @@ include('php/header.php');
         </div>
     </main>
     <!-- <footer></footer> -->
-    <?php include('php/winners3.php'); ?>  
+    <?php include('php/winners3.php'); 
+    include('../php/footer.php'); 
+    ?>  
 
     <script>
     
