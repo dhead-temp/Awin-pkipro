@@ -124,7 +124,7 @@ include('php/header.php');
         </div>
     </main>
     <!-- <footer></footer> -->
-    <?php include('php/winners.php'); ?>  
+    <?php include('../php/winners.php'); ?>  
 
     <script>
     
