@@ -132,7 +132,7 @@ include('php/header.php');
     <script>
     
        function myURL() {
-         document.location.href = "2.php";
+         document.location.href = "3.php";
         }
     
       </script>
