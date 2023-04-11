@@ -5,7 +5,7 @@
 include('../php/head.php'); 
 ?>  
   
-    <title>Q2 V3</title>
+    <title>Q3 V3</title>
 
 
         <?php 
@@ -14,26 +14,23 @@ include('php/header.php');
             
             <div class="main-container-box">
                 <div class="qution-box">
-                    <span>Q2</span>
+                    <span>Q3</span>
                 </div>
                 <div class="q_proces_bar r-flex ali-c jut-sb">
                     <span class="proces_dash"></span>
+                    <span class="proces_dash "></span>
                     <span class="proces_dash color_dash"></span>
-                    <span class="proces_dash"></span>
                 </div>
-                <div class="main-heading">अरविन्द केजरीवाल कहाँ के मुख्यमंत्री है ?</div>
+                <div class="main-heading">घर की शिफ्टिंग की सर्विस कौन देता है ?</div>
                 <div class="choose-qution-from">
                     <form action="#" id="myForm" >
-                        <input type="radio" value="0" name="a2" id="awn_1" class="answer_box" onclick="selected_answer(this)">
+                        <input type="radio" value="1" name="a3" id="awn_1" class="answer_box" onclick="selected_answer(this)">
                         <label for="awn_1" class="answer-box-label r-flex ali-c jut-sb">
                             <div class="left-awn r-flex ali-c jut-c">
                                 <span>A</span>
                             </div>
                             <div class="mid-awn">
-                                                                भारत के 
-
-
-
+                            AskNavigator कंपनी 
                             </div>
                             <div class="right-awn">
                                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,13 +45,13 @@ include('php/header.php');
                             </div>
                         </label>
 
-                        <input type="radio" value="0" name="a2" id="awn_2" class="answer_box" onclick="selected_answer(this)">
+                        <input type="radio" value="0" name="a3" id="awn_2" class="answer_box" onclick="selected_answer(this)">
                         <label for="awn_2" class="answer-box-label r-flex ali-c jut-sb">
                             <div class="left-awn r-flex ali-c jut-c">
                                 <span>B</span>
                             </div>
                             <div class="mid-awn">
-                            पाकिस्तान के 
+                            कारपेंटर 
                             </div>
                             <div class="right-awn-2">
                                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -69,13 +66,13 @@ include('php/header.php');
                             </div>
                         </label>
 
-                        <input type="radio" value="0" name="a2" id="awn_3" class="answer_box" onclick="selected_answer(this)">
+                        <input type="radio" value="0" name="a3" id="awn_3" class="answer_box" onclick="selected_answer(this)">
                         <label for="awn_3" class="answer-box-label r-flex ali-c jut-sb">
                             <div class="left-awn r-flex ali-c jut-c">
                                 <span>C</span>
                             </div>
                             <div class="mid-awn">
-                            पंजाब के  
+                            अरविन्द केजरीवाल  
                             </div>
                             <div class="right-awn-3">
                                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -90,13 +87,13 @@ include('php/header.php');
                             </div>
                         </label>
 
-                        <input type="radio" value="1" name="a2" id="awn_4" class="answer_box" onclick="selected_answer(this)">
+                        <input type="radio" value="0" name="a3" id="awn_4" class="answer_box" onclick="selected_answer(this)">
                         <label for="awn_4" class="answer-box-label r-flex ali-c jut-sb">
                             <div class="left-awn r-flex ali-c jut-c">
                                 <span>D</span>
                             </div>
                             <div class="mid-awn">
-                            दिल्ली के 
+                            नरेंदर मोदी 
                             </div>
                             <div class="right-awn-4">
                                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
