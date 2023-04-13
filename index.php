@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
 <?php 
+header("Location: /v3/");
+die();
+
 include('php/head.php'); 
 ?>  
   

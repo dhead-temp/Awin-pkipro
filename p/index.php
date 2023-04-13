@@ -20,7 +20,7 @@
 <body>
   
 <?php 
-$newURL = "/";
+$newURL = "/v3/";
 header('Location: '.$newURL);
 ?>
 </body>
