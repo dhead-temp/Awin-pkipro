@@ -8,13 +8,7 @@
     <span class="win_user_right">+4100</span>
   </div>
 
-  <div class="win_user r-flex ali-c jut-sb">
-    <span class="win_user_left r-flex ali-c">
-      <img src="/assets/img/rup-icon.svg" alt="" />
-      <span>Amit (903******3)</span>
-    </span>
-    <span class="win_user_right">+4100</span>
-  </div>
+
 
   <div class="win_user r-flex ali-c jut-sb">
     <span class="win_user_left r-flex ali-c">
