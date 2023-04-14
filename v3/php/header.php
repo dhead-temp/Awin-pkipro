@@ -116,10 +116,10 @@
   font-size : 14px;
   line-height : 16px;
   background : linear-gradient(rgb(11, 19, 38) 0.52%, rgb(16, 24, 45) 100%);
-  color : rgb(255, 255, 255);
+  color :#97a5c9;
 }
         .win_user_right{
-            color: #007E23;
+            color: #97a5c9;
         }
         .recent_head{
             color: #ffffff;
@@ -149,11 +149,7 @@
     <main>
         <div class="container ">
 <div class="main-hero-cont" style="background: #090F1E; color: #ffffff; border: 1px solid #141B2E; border-radius: 10px;">
-                <!-- <div class="heroMoney_img">
-                    <img src="money.png?version=0.0.3" alt="money">
-                </div>
-                <div class="rightHero_textbox">Answer & Win 4100 Rs</div>
-                <a href="#winnerslist" class="winList" >See Winners List</a> -->
+               
                 <div class="side_clo_heading">
                     <svg width="11" height="10" viewBox="0 0 11 10" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_668_328)">
