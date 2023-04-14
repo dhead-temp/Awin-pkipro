@@ -122,7 +122,7 @@
             color: #97a5c9;
         }
         .recent_head{
-            color: #ffffff;
+            color: #7380a0;
         }
         .win_user_left{
             gap: 6px;
