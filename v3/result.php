@@ -26,8 +26,8 @@ include('php/header.php');
             <div class="main-container-box">
                 
                 <div class="hero-container-box">
-                    <div class="win-img"><img src="assets/img/win-cup.png" alt="win cup"></div>
-                    <div class="herocucikes-img"><img src="assets/img/win-cucikes.png" alt="cookies"></div>
+                    <div class="win-img"><img src="/assets/img/win-cup.png" alt="win cup"></div>
+                    <div class="herocucikes-img"><img src="/assets/img/win-cucikes.png" alt="cookies"></div>
                     <div class="hero-head1">Congrats, You are </div>
                       <div class="hero-head1">Eligible to WIN 4100 Rs</div>
                     <div class="hero-head3">Your score</div>
