@@ -25,7 +25,7 @@ include('../php/head.php');
         color: #71788a;
     }
     .hero-head4{
-        color: #ffffff;
+        color: #fbd61c;
     }
     .hero-head5{
         color: #ffffff;
