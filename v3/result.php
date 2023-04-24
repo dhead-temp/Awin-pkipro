@@ -38,6 +38,10 @@ include('../php/head.php');
     background-color: #212738;
     color: #5a5b5b;
     }
+    .hero-head5-effect {
+    font-size: 20px;
+    font-weight: bold;
+  }
     </style>
 </head>
 <body>
@@ -68,7 +72,7 @@ include('php/header.php');
                         </svg>                        
                         <span>Invite Your Friends</span>
                     </button>
-                    <button href="#" class="payUPIbtn r-flex ali-c jut-c btneffectfont" id="next-button" onclick="window.location.href = '/details.php';" disabled onclick="gtag('event', 'proceed_from_result');">
+                    <button href="#" class="payUPIbtn r-flex ali-c jut-c btneffectfont" id="next-button">
                         <span>Proceed</span>
                         
                     </button>
@@ -99,7 +103,7 @@ include('php/header.php');
             
           
           if (shareCount === 3) {
-            nextButton.disabled = false;
+            // nextButton.disabled = false;
             nextButton.style.background="#344A86";
             nextButton.style.color = 'white';
             
@@ -130,6 +134,24 @@ include('php/header.php');
 }
 
 window.addEventListener('load', playBackgroundMusic1);
+
+// next button function
+
+nextButton.addEventListener("click", () => {
+       
+          if (shareCount >=3) {
+            window.location.href = '/details.php'; 
+            gtag('event', 'proceed_from_result');
+          }
+          if(shareCount<3){
+            heroText.classList.add('hero-head5-effect');
+            setTimeout(function() {
+            heroText.classList.remove('hero-head5-effect');
+             }, 2000);
+        }
+        
+        });
+       
 
       </script>
    
