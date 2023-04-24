@@ -70,7 +70,7 @@
     audioElement.src = '/assets/audio/time.mp3';
 
     if (document.title.includes('Q1') || document.title.includes('Q2') || document.title.includes('Q3')) {
-      audioElement.play();
+     // audioElement.play();
       }
       }
   
