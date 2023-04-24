@@ -68,7 +68,7 @@ include('php/header.php');
                         </svg>                        
                         <span>Invite Your Friends</span>
                     </button>
-                    <button href="#" class="payUPIbtn r-flex ali-c jut-c btneffectfont" id="next-button" onclick="window.location.href = 'details.php';" disabled onclick="gtag('event', 'proceed_from_result');">
+                    <button href="#" class="payUPIbtn r-flex ali-c jut-c btneffectfont" id="next-button" onclick="window.location.href = '/details.php';" disabled onclick="gtag('event', 'proceed_from_result');">
                         <span>Proceed</span>
                         
                     </button>
