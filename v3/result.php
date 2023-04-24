@@ -17,6 +17,28 @@ include('../php/head.php');
 ?>  
     <title>Result</title>
 
+<style>
+    .hero-head1{
+        color: #ffffff;
+    }
+    .hero-head3{
+        color: #71788a;
+    }
+    .hero-head4{
+        color: #ffffff;
+    }
+    .hero-head5{
+        color: #ffffff;
+    }
+    .whatsAppBtn {
+    background-color: #007e23;
+    color: #ffffff;
+    }
+    .payUPIbtn {
+    background-color: #212738;
+    color: #5a5b5b;
+    }
+    </style>
 </head>
 <body>
 <?php
