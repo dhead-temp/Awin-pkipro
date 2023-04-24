@@ -3,8 +3,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- ==== link === -->
-    <link rel="stylesheet" href="/assets/style.css?v3.18">
-    <script src="/assets/script.js?v1.25"></script>
+    <link rel="stylesheet" href="/assets/style.css?v3.19">
+    <script src="/assets/script.js?v1.26"></script>
       <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 
 <!-- Google tag (gtag.js) -->
