@@ -41,6 +41,8 @@ include('../php/head.php');
     .hero-head5-effect {
     font-size: 20px;
     font-weight: bold;
+    color: #fbd61c;
+
   }
     </style>
 </head>
