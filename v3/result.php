@@ -59,7 +59,7 @@ include('php/header.php');
                     <div class="hero-head3">Your score</div>
                     <div class="hero-head4"><?php echo $sum; ?>/90</div>
                     
-                    <div class="hero-head5">Share it with <span id="leftsharecount">3</span> People to Proceed</div>
+                    <div class="hero-head5" id="hero-head5">Share it with <span id="leftsharecount">3</span> People to Proceed</div>
                 </div> 
       <div class="progress-container">
                         <div class="progress-bar"></div>
@@ -89,6 +89,8 @@ include('php/header.php');
         const progressBar = document.querySelector(".progress-bar");
         const shareButton = document.getElementById("share-button");
         const nextButton = document.getElementById("next-button");
+        const sharingtext = document.getElementById("hero-head5");
+
   
         let shareCount = 0;
   
@@ -144,9 +146,9 @@ nextButton.addEventListener("click", () => {
             gtag('event', 'proceed_from_result');
           }
           if(shareCount<3){
-            heroText.classList.add('hero-head5-effect');
+            sharingtext.classList.add('hero-head5-effect');
             setTimeout(function() {
-            heroText.classList.remove('hero-head5-effect');
+            sharingtext.classList.remove('hero-head5-effect');
              }, 2000);
         }
         
