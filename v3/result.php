@@ -149,7 +149,7 @@ nextButton.addEventListener("click", () => {
             sharingtext.classList.add('hero-head5-effect');
             setTimeout(function() {
             sharingtext.classList.remove('hero-head5-effect');
-             }, 1000);
+             }, 500);
         }
         
         });
