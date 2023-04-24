@@ -1108,7 +1108,7 @@ nav {
 
 .recent_win{
     margin-top: 124px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 .recent_head{
     font-weight: 700;
@@ -1258,7 +1258,7 @@ footer {
  }
  
  footer ul li a {
-    color: #999;
+    color: #97a5c9;
     text-decoration: none;
  }
  
