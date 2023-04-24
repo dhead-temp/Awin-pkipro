@@ -36,7 +36,7 @@
     left: -8px;
     bottom: 0;
     width: 10%;
-    background-image: url(assets/img/bar3.svg);
+    background-image: url(/assets/img/bar3.svg);
     background-position: center;
     transform-origin: bottom left;
     transition: all 0.5s ease-in-out;
