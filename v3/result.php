@@ -55,7 +55,7 @@ include('php/header.php');
                     <div class="hero-head3">Your score</div>
                     <div class="hero-head4"><?php echo $sum; ?>/90</div>
                     
-                    <div class="hero-head5">Share it <span id="leftsharecount">3</span> People to Proceed</div>
+                    <div class="hero-head5">Share it with <span id="leftsharecount">3</span> People to Proceed</div>
                 </div> 
       <div class="progress-container">
                         <div class="progress-bar"></div>
