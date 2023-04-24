@@ -21,7 +21,7 @@ include('php/header.php');
                     <span class="proces_dash "></span>
                     <span class="proces_dash color_dash"></span>
                 </div>
-                <div class="main-heading">घर की शिफ्टिंग की सर्विस कौन देता है ?</div>
+                <div class="main-heading">इनमे से कौन बीजेपी से नहीं है?</div>
                 <div class="choose-qution-from">
                     <form action="#" id="myForm" >
                         <input type="radio" value="1" name="a3" id="awn_1" class="answer_box" onclick="selected_answer(this)">
@@ -30,7 +30,7 @@ include('php/header.php');
                                 <span>A</span>
                             </div>
                             <div class="mid-awn">
-                            AskNavigator कंपनी 
+                            अरविन्द केजरीवाल 
                             </div>
                             <div class="right-awn">
                                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -51,7 +51,7 @@ include('php/header.php');
                                 <span>B</span>
                             </div>
                             <div class="mid-awn">
-                            कारपेंटर 
+                            अमित शाह 
                             </div>
                             <div class="right-awn-2">
                                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -72,7 +72,7 @@ include('php/header.php');
                                 <span>C</span>
                             </div>
                             <div class="mid-awn">
-                            अरविन्द केजरीवाल  
+                            योगी आदित्यनाथ  
                             </div>
                             <div class="right-awn-3">
                                 <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
