@@ -76,8 +76,9 @@ include('php/header.php');
 
                   
     </main>
-    <?php include('php/winners3.php'); ?>
-    <!-- <footer></footer> -->
+    <?php include('php/winners3.php'); 
+    include('../php/footer.php'); 
+    ?>  
 <!-- 
     <script>
         const progressBar = document.querySelector(".progress-bar");

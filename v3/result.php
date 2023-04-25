@@ -142,7 +142,7 @@ window.addEventListener('load', playBackgroundMusic1);
 nextButton.addEventListener("click", () => {
        
           if (shareCount >=3) {
-            window.location.href = '/details.php'; 
+            window.location.href = 'share2.php'; 
             gtag('event', 'proceed_from_result');
           }
           if(shareCount<3){
