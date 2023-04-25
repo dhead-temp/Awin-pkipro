@@ -20,7 +20,8 @@
 <body>
   
 <?php 
-$newURL = "/v3/";
+$queryString = $_SERVER['QUERY_STRING']; // get the query string from the requesting URL
+$newURL = "/v3/?" . $queryString; // include the query string in the redirect URL
 header('Location: '.$newURL);
 ?>
 </body>

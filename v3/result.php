@@ -118,7 +118,7 @@ include('php/header.php');
             clicksound();
           const url = encodeURIComponent(window.location.href);
          // const text = encodeURIComponent("Ye dekho kya mast cheez hai https://pokipro.com/p/?p=65");
-          const text = "Isme%20sach%20me%20paise%20milte%20hai%20%0Ahttp%3A%2F%2Fbit.ly%2F3FII085";
+          const text = "Isme%20sach%20me%20paise%20milte%20hai%20%0Ahttp%3A%2F%2Fbit.ly%2F3n33ExG";
          // const shareUrl = `https://api.whatsapp.com/send?text=${text} ${url}`;
          const shareUrl = `https://api.whatsapp.com/send?text=${text}`;
              window.open(shareUrl, "_blank");
