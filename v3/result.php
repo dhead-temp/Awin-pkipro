@@ -45,8 +45,6 @@ include('../php/head.php');
 
   }
     </style>
-</head>
-<body>
 <?php
 include('php/header.php');
 ?>  
