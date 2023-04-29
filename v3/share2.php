@@ -144,8 +144,8 @@ include('php/header.php');
         progress += 30;
         updateProgressBar();
         downloadButton.disabled = true;
-        downloadButton.style.background="#b5b5b5";
-        downloadButton.style.color = '#8e8e8e';
+        downloadButton.style.background="#212738";
+        downloadButton.style.color = '#5a5b5b';
         window.open(appurl, "_blank");
         
         if (progress > 99) {
