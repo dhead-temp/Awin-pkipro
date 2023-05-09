@@ -15,11 +15,11 @@
     
 
     // Action 1 - Set the background color based on the value
-  //   const progressBar = document.querySelector('#progress_bar > span');
-  //  progressBar.style.backgroundColor = value === '1' ? 'green' : 'red';
+    const progressBar = document.querySelector('#progress_bar > span');
+  // progressBar.style.backgroundColor = value === '1' ? 'green' : 'red';
    
    // Action 1 - play answer sfx
-    playSound(value);
+   // playSound(value);
 
 
      // Action 2 - Change Text below options
@@ -51,28 +51,28 @@
 
    // Play sound or right and wrong question
 
-  //  function playSound(value) {
-  //   var audioElement = new Audio();
+   function playSound(value) {
+    var audioElement = new Audio();
     
-  //   if (value === "1") {
-  //     audioElement.src = '/assets/audio/right1.mp3';
-  //   } else if (value === "0") {
-  //     audioElement.src = '/assets/audio/wrong.mp3';
-  //   }
+    if (value === "1") {
+      audioElement.src = '/assets/audio/right1.mp3';
+    } else if (value === "0") {
+      audioElement.src = '/assets/audio/wrong.mp3';
+    }
     
-  //   audioElement.play();
-  // }
+    audioElement.play();
+  }
 
-  // function playBackgroundMusic() {
-  //   var audioElement = new Audio();
+  function playBackgroundMusic() {
+    var audioElement = new Audio();
     
-  //   audioElement.loop = true;
-  //   audioElement.src = '/assets/audio/time.mp3';
+    audioElement.loop = true;
+    audioElement.src = '/assets/audio/time.mp3';
 
-  //   if (document.title.includes('Q1') || document.title.includes('Q2') || document.title.includes('Q3')) {
-  //    // audioElement.play();
-  //     }
-  //     }
+    if (document.title.includes('Q1') || document.title.includes('Q2') || document.title.includes('Q3')) {
+     // audioElement.play();
+      }
+      }
   
   window.addEventListener('load', playBackgroundMusic);
 
