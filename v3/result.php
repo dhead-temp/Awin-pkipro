@@ -135,7 +135,7 @@ include('php/header.php');
   
 }
 
-window.addEventListener('load', playBackgroundMusic1);
+// window.addEventListener('load', playBackgroundMusic1);
 
 // next button function
 
